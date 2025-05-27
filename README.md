@@ -52,16 +52,14 @@ Duty cycle=R1/R1+R2
 
 
 
-
-### Monostable Mode<br>
+<h2> Monostable Mode</h2>
 This configuration consists of one stable and one unstable state. The stable state can be chosen as either high or low by the user. If the stable output is set at high (1), the output of the timer is high (1).<br>
 
 At the application of an interrupt, the timer output turns low (0). Since the low state is unstable it goes to high (1) automatically after the interrupt passes. Similar is the case for a low stable monostable mode.<br>
 
 ![image](https://github.com/user-attachments/assets/fa1d7ad4-ada3-427b-acc2-35ac58e6fbbe)
 
-
-### Bistable Mode<br>
+<h2> Bistable Mode</h2>
 
 ![Image](https://github.com/user-attachments/assets/2b76c0fe-aea8-4602-a517-bfecab0075dd) <br><br>
 
