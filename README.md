@@ -92,6 +92,10 @@ An astable multivibrator is a type of electronic circuit that produces a continu
 2. DESIGN ASTABLE MULTIVIBRATOR IN WHICH TIME PERIOD CAN VARIED EXTERNALLY<br>
 
 <h3>Monostable multivibrator: CASE01</h3>
+## Calculation:
+Given that T=0.5ms and assume c=.1uF.
+
+T=1.1RC
 
 
 
