@@ -117,7 +117,7 @@ From the formula wkt T = 1.1*R*C <br>
 assuming c=0.1uF , R becomes<br>
 R = 4.5kohm<br>
 
-#### CASE 1:<br>
+for case 01:
 Given<br>
 ton = 0.3ms & toff = 0.2ms<br>
 formulas<br>
@@ -149,6 +149,10 @@ by formula, C = 1nF<br>
 ![image](https://github.com/user-attachments/assets/673dfca7-7670-4595-a1f7-b9df6f0f5ebe)
 
 
+1.Output of Astable Multivibrator 
+ 2.Output of Differentiator Circuit
+ 3.Output of Positive Clipper
+ 4.Output of Monostable Multivibrator
 
 
 <h3>CASE 03</h3>
@@ -162,6 +166,10 @@ R1=159ohm<br>
 
 ![image](https://github.com/user-attachments/assets/9505d51d-a567-46b6-85c6-f33dda987ce2)
 
+ 1.Output of Inverted Astable Multivibrator 
+ 2.Output of Differentiator Circuit
+3.Output of Positive Clipper Circuit
+ 4.Output of Monostable Multivibrator
 
 <h2> Virtual lab results</h2>
 
