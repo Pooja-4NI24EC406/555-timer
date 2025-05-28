@@ -91,40 +91,47 @@ An astable multivibrator is a type of electronic circuit that produces a continu
 1. GENERATE THE WAVEFORM WITH PULSE WIDTH OF 0.5ms USING 555 IC<br>
 2. DESIGN ASTABLE MULTIVIBRATOR IN WHICH TIME PERIOD CAN VARIED EXTERNALLY<br>
 
-<h3>Monostable multivibrator: CASE01</h3>
+<h3>Monostable multivibrator:</h3>
 
 ![image](https://github.com/user-attachments/assets/4abb4029-80e4-40dc-af49-bfe8be071a99)
 
 ## Calculation:<br>
-Given that T=0.5ms and assume c=.1uF.
+Given that T=0.5ms <br>
+Assume c=.1uF.<br>
 
+### Transient Analysis:<br>
+
+![image](https://github.com/user-attachments/assets/52b83cba-ef5e-45b0-bc13-a8cdd3982ab5)
+
+In the above circuit, when the trigger voltage drops below 1/3 of Vcc, the output switches to HIGH.<br>
 T=1.1RC
-
-
-
-
-
-
-
-
-
-<h3>CASE 02</h3>
-
-
-
-
-
-
-
-
-<h3>CASE 03</h3>
-
-
 
 
 <h3>Astable multivibrator: CASE01</h3>
 
+![image](https://github.com/user-attachments/assets/900d3f5d-cf85-409f-8a86-5c04af6e01f2)
 
+
+##### Calculation:<br>
+From the formula wkt T = 1.1*R*C <br>
+assuming c=0.1uF , R becomes<br>
+R = 4.5kohm<br>
+
+#### CASE 1:<br>
+Given<br>
+ton = 0.3ms & toff = 0.2ms<br>
+formulas<br>
+ton = 0.69*(R1+R2)  toff = 0.69*R2*C<br>
+from calculations ,
+R2 = 29.98kohm
+R1= 14.5kohm c= 0.01uF<br>
+
+![image](https://github.com/user-attachments/assets/26401431-d575-40dd-b3ba-42fc6236f889)
+
+1.Output of Astable Multivibrator 
+2.Output of Differentiator Circuit 
+3.Output of Positive Clipper
+4.Output of Monostable Multivibrator 
 
 
 
@@ -133,12 +140,27 @@ T=1.1RC
 
 
 
+Given<br>
+ton = 0.2ms & toff = 0.05ms<br>
+assume , R1 = 72kohm & R2 = 72kohm<br>
+by formula, C = 1nF<br>
+
+
+![image](https://github.com/user-attachments/assets/673dfca7-7670-4595-a1f7-b9df6f0f5ebe)
 
 
 
 
 <h3>CASE 03</h3>
 
+Given<br>
+ton = 0.1ms & toff = 0.4ms<br>
+R2 = 4.3kΩ R1 = 53.4kΩ<br>
+C=0.01μF<br>
+from differentiator ,assuming c= 0.1uF<br>
+R1=159ohm<br>
+
+![image](https://github.com/user-attachments/assets/9505d51d-a567-46b6-85c6-f33dda987ce2)
 
 
 <h2> Virtual lab results</h2>
