@@ -141,11 +141,11 @@ T=1.1RC
 
 
 
-
-###  Virtual Lab Results
+<h2> Virtual lab results</h2>
 
 
 ## Circuit Diagram
+
 ![image](https://github.com/user-attachments/assets/303eba91-66eb-4a6a-9dbc-12f03dbb176c)
 
 
